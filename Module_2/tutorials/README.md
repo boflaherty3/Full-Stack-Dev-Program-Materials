@@ -1,0 +1,1 @@
+This folder contains practice materials for learning HTML and CSS according to the tutorials on [internetingishard.com](https://www.internetingishard.com/html-and-css/). It can also be found under the HTML section of [the roadmap](https://roadmap.sh/frontend), the 4th link from the top.
