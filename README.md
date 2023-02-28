@@ -10,3 +10,5 @@ This repo is to hold learning materials related to my learning of Full Stack Dev
 
 ## TABLE OF CONTENTS
 [Module 1: Internet](https://github.com/boflaherty3/Full-Stack-Dev-Program-Materials/tree/main/Module_1#readme)
+
+[Module 2: HTML, CSS, JavaScript](https://github.com/boflaherty3/Full-Stack-Dev-Program-Materials/tree/main/Module_2#readme)
