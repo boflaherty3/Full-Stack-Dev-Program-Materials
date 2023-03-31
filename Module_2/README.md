@@ -7,7 +7,7 @@
 
 ## Exercises
 
-- [ ]  Complete the [tutorials](https://www.internetingishard.com/html-and-css/) for learning HTML and CSS in website design.
+- [x]  Complete the [tutorials](https://www.internetingishard.com/html-and-css/) for learning HTML and CSS in website design.
 - [ ] Create sample website using the following technologies, with a separate file for each:
   - [ ] HTML. Make sure to use semantic HTML tags. Use `div` as needed. [Useful resource](https://html5example.com/)
     - [ ] `head` tag, with `title`, `link`, `meta` tags
