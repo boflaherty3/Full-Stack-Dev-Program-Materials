@@ -10,16 +10,16 @@
 - [x]  Complete the [tutorials](https://www.internetingishard.com/html-and-css/) for learning HTML and CSS in website design.
 - [ ] Create sample website using the following technologies, with a separate file for each:
   - [ ] HTML. Make sure to use semantic HTML tags. Use `div` as needed. [Useful resource](https://html5example.com/)
-    - [ ] `head` tag, with `title`, `link`, `meta` tags
-    - [ ] `body` tag, with `header`, `nav`, `footer`
-    - [ ] `h<number>` tags with `section`, `p` for content
-    - [ ] `image`
-    - [ ] `table`
-    - [ ] `form`, inluding `input`, `label`. Use 2-3 inputs
-    - [ ] `button` (see JS section for functionality)
-    - [ ] `a` (link to some files in your repo, perhaps)
-    - [ ] inline styling for one element, just as proof of concept
-    - [ ] attributes such as id/class as necessary
+    - [x] `head` tag, with `title`, `link`, `meta` tags
+    - [x] `body` tag, with `header`, `nav`, `footer`
+    - [x] `h<number>` tags with `section`, `p` for content
+    - [x] `image`
+    - [x] `table`
+    - [x] `form`, inluding `input`, `label`. Use 2-3 inputs
+    - [x] `button` (see JS section for functionality)
+    - [x] `a` (link to some files in your repo, perhaps)
+    - [x] inline styling for one element, just as proof of concept
+    - [x] attributes such as id/class as necessary
   - [ ] CSS. Don't go crazy here, just the basics will do
     - [ ] manually set the font to something other than the default
     - [ ] styles for primary button
