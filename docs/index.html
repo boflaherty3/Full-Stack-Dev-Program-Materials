@@ -6,12 +6,112 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Webpage</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+      .page {
+        background-color: lightblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .footer {
+        background-color: tan;
+      }
+    </style>
   </head>
   <body>
-    <header>
-      <h1>Hello, World!</h1>
+    <div class="page">
+      <header class="header">
+        <h1>Welcome to my Webpage</h1>
+        <nav>
+          <ul>
+            <li><a href="README.md">Repo README.md</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Sign Up</a></li>
+          </ul>
+        </nav>
+      </header>
 
-      <p>Welcome to my Webpage!</p>
-    </header>
+      <article>
+        <header>
+        <h1 style="color:green">Here's an example of inline CSS styling</h1>
+        <p>I'm learning the basics of front and back end development, and this is an example of me putting what I learned to practice. Web design has been an intereresting but rewarding experience so far.</p>
+        </header>
+
+      <section>
+        <h2>Check Out this Figure Below, caption included!</h2>
+          <figure>
+            <img src="giants_logo.svg" alt="NY Giants Logo"/>
+            <figcaption>The Logo of my favorite NFL football team, the NY Giants</figcaption>
+          </figure>
+
+        <h3>Time for a Table!</h3>
+        <table>
+          <tr>
+            <th>Team</th>
+            <th>Wins</th>
+            <th>Losses</th>
+          </tr>
+          <tr>
+            <td>Eagles</td>
+            <td>14</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Cowboys</td>
+            <td>12</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>Giants</td>
+            <td>9</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>Commanders</td>
+            <td>8</td>
+            <td>8</td>
+          </tr>
+        </table>
+      </section>
+
+      <section>
+        <form action="" method="get" class="survey">
+          <div>
+            <label for="full-name">Name</label>
+            <input id="full-name" name="full-name" type="text"/>
+          </div>
+
+          <div>
+            <label for="comment-question">Comment or Question?</label>
+            <select id="comment-question" name="comment-question">
+              <option value="comment">Comment</option>
+              <option value="question">Question</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="abstract">Abstract</label>
+            <textarea id="abstract" name="abstract"></textarea>
+            <div>Leave a comment or question up to 180 words</div>
+          </div>
+
+          <div>
+            <button>Submit</button>
+          </div>
+        </form>
+      </section>
+    </div>
+
+
+    <footer class="footer">
+      <p><em>This page was written by Brenden O'Flaherty.</em></p>
+    </footer>
+
   </body>
 </html>
