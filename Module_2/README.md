@@ -9,7 +9,7 @@
 
 - [x]  Complete the [tutorials](https://www.internetingishard.com/html-and-css/) for learning HTML and CSS in website design.
 - [ ] Create sample website using the following technologies, with a separate file for each:
-  - [ ] HTML. Make sure to use semantic HTML tags. Use `div` as needed. [Useful resource](https://html5example.com/)
+  - [x] HTML. Make sure to use semantic HTML tags. Use `div` as needed. [Useful resource](https://html5example.com/)
     - [x] `head` tag, with `title`, `link`, `meta` tags
     - [x] `body` tag, with `header`, `nav`, `footer`
     - [x] `h<number>` tags with `section`, `p` for content
@@ -20,10 +20,10 @@
     - [x] `a` (link to some files in your repo, perhaps)
     - [x] inline styling for one element, just as proof of concept
     - [x] attributes such as id/class as necessary
-  - [ ] CSS. Don't go crazy here, just the basics will do
-    - [ ] manually set the font to something other than the default
-    - [ ] styles for primary button
-    - [ ] styles for the nav, background color
+  - [x] CSS. Don't go crazy here, just the basics will do
+    - [x] manually set the font to something other than the default
+    - [x] styles for primary button
+    - [x] styles for the nav, background color
     - [ ] if you're feeling ambitious, import [bootstrap](https://getbootstrap.com/docs/3.3/getting-started/#download-cdn) and use their styling to format your page
     ```html
     <!-- Latest compiled and minified CSS -->
