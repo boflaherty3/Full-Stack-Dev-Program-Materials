@@ -30,9 +30,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     ```
   - [ ] JavaScript
-    - [ ] pop up an alert with the current date and time (formatted so a human can read it) when a button is clicked
-    - [ ] write a function to handle the on submit button for the form. This should print the input names and values in a box below the form.
-    - [ ] write a function to clear the input box when a button is pressed
-    - [ ] after the page loads, wait 5 seconds and then show a new section on the page (using a self invoking function)
-    - [ ] in the navigation bar, show the curent time, refreshing every 30 seconds
+    - [x] pop up an alert with the current date and time (formatted so a human can read it) when a button is clicked
+    - [x] write a function to handle the on submit button for the form. This should print the input names and values in a box below the form.
+    - [x] write a function to clear the input box when a button is pressed
+    - [x] after the page loads, wait 5 seconds and then show a new section on the page (using a self invoking function)
+    - [x] in the navigation bar, show the curent time, refreshing every 30 seconds
     - [ ] after a button is clicked, retrieve data from this [the bacon ipsum API](https://baconipsum.com/json-api/) and print it on the screen
