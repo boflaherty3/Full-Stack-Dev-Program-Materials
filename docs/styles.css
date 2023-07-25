@@ -6,11 +6,18 @@ body {
   font-weight: normal;
 }
 
-li, #dateTimeConst {
+li {
   display:inline;
   padding: 180px;
   font-variant-caps: all-small-caps;
 }
+
+#dateTimeConst {
+  display:inline;
+  padding: 180px;
+  font-variant-caps: all-small-caps;
+}
+
 
 .nav {
   color: #fff;
