@@ -6,41 +6,18 @@ body {
   font-weight: normal;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-.item {
-  float: left;
-}
-
-.item a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.item a:hover {
-  background-color: #111;
-}
-/*li {
+li {
   display:inline;
   padding: 100px;
   font-variant-caps: all-small-caps;
-}*/
+}
 
 
-/*.nav {
+.nav {
   color: #fff;
   background-color: #5995DA;
   padding: 20px 0;
-}*/
+}
 
 .header {
     text-align: center;
