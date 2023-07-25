@@ -6,7 +6,7 @@ body {
   font-weight: normal;
 }
 
-li {
+li, .dateTimeConst {
   display:inline;
   padding: 180px;
   font-variant-caps: all-small-caps;
@@ -21,6 +21,19 @@ li {
 .header {
     text-align: center;
     color: purple;
+}
+
+.footer {
+  background-color: tan;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  padding: 2px;
+  margin: 2px;
+  background-color: whitesmoke;
 }
 
 .button {

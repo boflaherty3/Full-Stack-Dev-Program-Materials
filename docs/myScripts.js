@@ -40,8 +40,8 @@ function submitFunc() {
   }
 
 // Function to show a section of the website after 5 seconds.
-  const pop = document.getElementById("popUp")
   setTimeout(() => {
+    const pop = document.getElementById("popUp")
     pop.style.visibility = 'visible';
   }, 5000);
 
