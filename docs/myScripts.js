@@ -14,7 +14,7 @@ function displayTime (){
   }
 
 // Function to show a pop up of the date and time when a button is clicked.
-function myFunction() {
+function showDate() {
     alert(Date());
   };
 

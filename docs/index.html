@@ -7,7 +7,8 @@
     <title>My Webpage</title>
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
+  <body onload="refreshTime()">
+    <script src="myScripts.js"></script>
     <div class="page">
       <header class="header">
         <h1>Welcome to my Webpage</h1>
@@ -16,7 +17,7 @@
             <li><a href="README.md" class="menu">Repo README.md</a></li>
             <li><a href="#" class="menu">About</a></li>
             <li><a href="#" class="menu">Blog</a></li>
-            <li><a href="#" class="menu">Sign Up</a></li>
+            <li id="dateTimeConst">Current Time: </li>
           </ul>
         </nav>
       </header>
@@ -26,6 +27,21 @@
         <h1 style="color:green">Here's an example of inline CSS styling</h1>
         <p>I'm learning the basics of front and back end development, and this is an example of me putting what I learned to practice. Web design has been an intereresting but rewarding experience so far.</p>
         </header>
+      </article>
+
+      <section>
+        <h1>Let's fetch some data from Bacon Ipsum API</h1>
+        <button onclick="fetchData()">Fetch API to get data</button>
+        <div id="output"></div>
+      </section>
+
+      <section>
+        <button onclick="showDate()">Click me for Date and Time</button>
+      </section>
+
+      <div>
+        <h2 id="popUp" style="visibility: hidden; background-color: beige;">Here's a section that popped up after 5 seconds!</h2>
+      </div>
 
       <section>
         <h2>Check Out this Figure Below, caption included!</h2>
@@ -64,6 +80,10 @@
         </table>
       </section>
 
+      <div>
+        <button onclick="resetInputs()" type="button">Reset Form</button>
+      </div>
+
       <section>
         <form action="" method="get" class="survey">
           <div>
@@ -86,7 +106,12 @@
           </div>
 
           <div>
-            <button class="button">Submit</button>
+            <button onclick="submitFunc()" type="button">Submit</button>
+          </div>
+          <div class="box">
+            <p id="printNames"></p>
+            <p id = "printAnswer"></p>
+            <p id= "printText"></p>
           </div>
         </form>
       </section>
