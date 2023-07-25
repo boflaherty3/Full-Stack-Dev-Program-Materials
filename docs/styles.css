@@ -8,13 +8,7 @@ body {
 
 li {
   display:inline;
-  padding: 180px;
-  font-variant-caps: all-small-caps;
-}
-
-#dateTimeConst {
-  display:inline;
-  padding: 180px;
+  padding: 135px;
   font-variant-caps: all-small-caps;
 }
 
