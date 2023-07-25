@@ -6,9 +6,9 @@ body {
   font-weight: normal;
 }
 
-li {
+li, #dateTimeConst {
   display:inline;
-  padding: 135px;
+  padding: 100px;
   font-variant-caps: all-small-caps;
 }
 
